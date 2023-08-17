@@ -1,0 +1,27 @@
+.header {
+  /* width: calc(100vw - 32px); */
+  width: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+  position: sticky;
+  margin-bottom: 17px;
+}
+
+.title {
+  margin: 0;
+  width: fit-content;
+}
+
+.description {
+  max-width: 343px;
+  color: var(--white-base, #fff);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  width: fit-content;
+}

@@ -1,0 +1,29 @@
+.toggleDistance {
+  display: flex;
+}
+
+.span {
+  color: var(--white-base, #fff);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 8px;
+}
+
+.text {
+  color: var(--white-base, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text_unactive {
+  font-weight: 700;
+  text-decoration: none;
+  cursor: default;
+}

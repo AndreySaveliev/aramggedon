@@ -1,0 +1,42 @@
+.loader {
+  max-width: 402px;
+  display: none;
+  justify-content: space-around;
+}
+
+.text_active {
+  display: flex;
+  flex-direction: row;
+}
+
+.loader_text {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0;
+  background-color: var(--orange-base, #f86600);
+  animation: loading 1.2s backwards infinite;
+  position: relative;
+}
+
+.loader_text:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader_text:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.loader_text:nth-child(1) {
+  animation-delay: 0.6s;
+}
+
+@keyframes loading {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 8px;
+  }
+  100% {
+    top: 0
+  }
+}
