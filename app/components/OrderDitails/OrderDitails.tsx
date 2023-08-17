@@ -7,7 +7,7 @@ import { AsteroidCard } from '../AsteroidCard/AsteroidCard';
 import { Key, useState, useEffect } from 'react';
 export const OrderDitails = () => {
   const bin = useBin();
-  const [order, setOrder] = useState<Asteroid[]>(bin?.state!);
+  const [order, setOrder] = useState<Asteroid[] | undefined>(bin?.state!);
 
   useEffect(() => {
     setOrder(bin?.state);
